@@ -1,147 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Muktha S Shetty | Portfolio</title>
-    <style>
-        /* General styles */
-        body {
-            font-family: 'Arial', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f6fa;
-            color: #333;
-        }
-        a {
-            text-decoration: none;
-            color: #3498db;
-        }
-        header {
-            background-color: #2f3640;
-            color: white;
-            padding: 60px 20px;
-            text-align: center;
-        }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-        header p {
-            margin-top: 10px;
-            font-size: 1.2em;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Muktha S Shetty | Portfolio</title>
+<style>
+/* Reset & general styles */
+body, html { margin:0; padding:0; font-family: 'Arial', sans-serif; scroll-behavior: smooth;}
+a { text-decoration: none; color: inherit; }
+section { padding: 80px 20px; max-width: 1000px; margin:auto; }
+h2 { text-align:center; margin-bottom:40px; font-size:2em; color:#2c3e50; }
 
-        /* Section styling */
-        section {
-            padding: 60px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h2 {
-            text-align: center;
-            font-size: 2em;
-            margin-bottom: 30px;
-        }
-        .box {
-            background-color: white;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 10px;
-            box-shadow: 0px 0px 10px #ccc;
-        }
+/* Header */
+header {
+    position: sticky; top:0; z-index:100;
+    background:#2c3e50; color:white; padding:20px 0;
+}
+header h1 { text-align:center; margin:0; font-size:2.5em; }
+nav { text-align:center; margin-top:10px; }
+nav a {
+    color:white; margin:0 15px; font-weight:bold; padding:8px 12px;
+    transition: background 0.3s, color 0.3s; border-radius:5px;
+}
+nav a:hover { background:white; color:#2c3e50; }
 
-        /* Skills styling */
-        .skills {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 15px;
-        }
-        .skill {
-            background-color: #3498db;
-            color: white;
-            padding: 10px 15px;
-            border-radius: 5px;
-            font-weight: bold;
-        }
+/* About Box */
+.box {
+    background:white; padding:25px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+.box:hover { transform: translateY(-5px); }
 
-        /* Projects styling */
-        .project {
-            margin-bottom: 20px;
-        }
+/* Skills */
+.skills { display:flex; justify-content:center; flex-wrap:wrap; gap:15px; }
+.skill {
+    background:#3498db; color:white; padding:12px 20px; border-radius:8px; font-weight:bold;
+    transition: transform 0.3s, background 0.3s;
+}
+.skill:hover { transform: scale(1.1); background:#2980b9; }
 
-        /* Social links styling */
-        .social {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .social a {
-            margin: 0 10px;
-            font-weight: bold;
-        }
+/* Projects */
+.project { margin-bottom:25px; }
 
-        /* Footer */
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #2f3640;
-            color: white;
-        }
-    </style>
+/* Contact Links */
+.social { text-align:center; margin-top:20px; }
+.social a {
+    margin:0 10px; font-weight:bold; color:#3498db; transition: color 0.3s;
+}
+.social a:hover { color:#2980b9; }
+
+/* Footer */
+footer { text-align:center; padding:20px; background:#2c3e50; color:white; }
+</style>
 </head>
 <body>
 
-    <!-- Header -->
-    <header>
-        <h1>Muktha S Shetty</h1>
-        <p>Computer Science Engineering Student</p>
-        <p>Python Developer | Full Stack Developer</p>
-    </header>
+<!-- Header -->
+<header>
+<h1>Muktha S Shetty</h1>
+<nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+</nav>
+</header>
 
-    <!-- About Me Section -->
-    <section id="about">
-        <h2>About Me</h2>
-        <div class="box">
-            <p>Hello! I am Muktha, a passionate Computer Science Engineering student. I enjoy building software projects, exploring AI, and developing full-stack web applications. I am always eager to learn new technologies and improve my skills.</p>
-        </div>
-    </section>
+<!-- About Me -->
+<section id="about">
+<h2>About Me</h2>
+<div class="box">
+<p>Hello! I'm Muktha, a Computer Science Engineering student. I love building projects, exploring AI, and developing full-stack applications. I aim to create impactful software solutions and continuously learn new technologies.</p>
+</div>
+</section>
 
-    <!-- Skills Section -->
-    <section id="skills">
-        <h2>Skills</h2>
-        <div class="skills">
-            <div class="skill">Python</div>
-            <div class="skill">Full Stack Development</div>
-            <div class="skill">AI/ML</div>
-            <div class="skill">Web Development</div>
-        </div>
-    </section>
+<!-- Skills -->
+<section id="skills">
+<h2>Skills</h2>
+<div class="skills">
+<div class="skill">Python</div>
+<div class="skill">Full Stack Development</div>
+<div class="skill">AI / ML</div>
+<div class="skill">Web Development</div>
+</div>
+</section>
 
-    <!-- Projects Section -->
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project box">
-            <h3>Voice based Virtual Assistant</h3>
-            <p>A virtual assistant that responds to voice commands and performs tasks like opening apps, searching online, and more.</p>
-        </div>
-        <div class="project box">
-            <h3>Automated Helmet Violation Detection and License Plate Recognition System</h3>
-            <p>A traffic monitoring system that detects helmetless riders and automatically recognizes their license plate numbers for enforcement.</p>
-        </div>
-    </section>
+<!-- Projects -->
+<section id="projects">
+<h2>Projects</h2>
+<div class="project box">
+<h3>Voice-based Virtual Assistant</h3>
+<p>A virtual assistant that responds to voice commands to perform tasks like opening apps, searching online, and more.</p>
+</div>
+<div class="project box">
+<h3>Automated Helmet Violation Detection & License Plate Recognition</h3>
+<p>A traffic monitoring system that detects helmetless riders and automatically recognizes license plate numbers for enforcement.</p>
+</div>
+</section>
 
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <div class="social">
-            <a href="https://www.linkedin.com/in/muktha-s-shetty-2704402a0" target="_blank">LinkedIn</a>
-        </div>
-    </section>
+<!-- Contact -->
+<section id="contact">
+<h2>Contact Me</h2>
+<div class="social">
+<a href="https://www.linkedin.com/in/muktha-s-shetty-2704402a0" target="_blank">LinkedIn</a>
+</div>
+</section>
 
-    <!-- Footer -->
-    <footer>
-        &copy; 2026 Muktha S Shetty. All rights reserved.
-    </footer>
+<!-- Footer -->
+<footer>
+&copy; 2026 Muktha S Shetty. All Rights Reserved.
+</footer>
 
 </body>
 </html>
