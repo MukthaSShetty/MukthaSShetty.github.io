@@ -1,2 +1,1 @@
-# MukthaSShetty.github.io
-"My Portfolio Website”
+Welcome to my personal portfolio! This repository hosts my professional portfolio website, showcasing my skills, projects, and contact information. Here you can explore a brief introduction about me, my technical skills, and hands-on projects I have built, including my Python-based Voice-Based Virtual Assistant and upcoming AI projects. The portfolio is built using HTML, CSS, and JavaScript and is hosted on GitHub Pages. You can also find links to my LinkedIn profile and email to connect professionally. Check out the live portfolio here: [https://MukthaSShetty.github.io](https://MukthaSShetty.github.io)
