@@ -154,4 +154,4 @@ If you like this portfolio, feel free to give this repository a ⭐ and connect 
 ---
 
 © 2026 Muktha S Shetty. All Rights Reserved.
-[https://MukthaSShetty.github.io](https://MukthaSShetty.github.io)
+
