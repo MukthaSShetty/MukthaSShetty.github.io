@@ -8,13 +8,8 @@
 body{
     min-height:100vh;
     overflow-x:hidden;
-
-    background:linear-gradient(
-    135deg,
-    #F8F4FF,
-    #FDEEF8,
-    #FFF4EC
-    );
+    background:#0D1117;
+    color:#F0F6FC;
 }
 
 /* Decorative Blobs */
@@ -29,7 +24,7 @@ body{
 .blob1{
     width:300px;
     height:300px;
-    background:#D9B8FF;
+    background:#1F6FEB;
     top:-50px;
     left:-80px;
 }
@@ -37,7 +32,7 @@ body{
 .blob2{
     width:250px;
     height:250px;
-    background:#FFD6E7;
+    background:#238636;
     bottom:50px;
     right:50px;
 }
@@ -45,7 +40,7 @@ body{
 .blob3{
     width:250px;
     height:250px;
-    background:#FFE5CC;
+    background:#0EA5E9;
     top:250px;
     right:-50px;
 }
@@ -81,7 +76,7 @@ nav{
 .logo{
     font-size:1.4rem;
     font-weight:700;
-    color:#A06CD5;
+    color:#58A6FF;
 }
 
 nav ul{
@@ -92,13 +87,13 @@ nav ul{
 
 nav a{
     text-decoration:none;
-    color:#555;
+    color:#C9D1D9;
     font-weight:500;
     transition:.3s;
 }
 
 nav a:hover{
-    color:#A06CD5;
+    color:#58A6FF;
 }
 
 /* Hero Section */
@@ -138,14 +133,14 @@ nav a:hover{
 }
 
 .text-section span{
-    color:#A06CD5;
+    color:#58A6FF;
 }
 
 .text-section h2{
 
     margin-top:15px;
 
-    color:#C77DFF;
+    color:#79C0FF;
 
     height:50px;
 
@@ -156,7 +151,7 @@ nav a:hover{
 
     margin-top:20px;
 
-    color:#555;
+    color:#C9D1D9;
 
     line-height:1.8;
 
@@ -190,14 +185,14 @@ nav a:hover{
 
 .primary{
 
-    background:#A06CD5;
+    background:#58A6FF;
     color:white;
 }
 
 .secondary{
 
-    background:white;
-    color:#A06CD5;
+    background:#161B22;
+    color:#58A6FF;
 }
 
 .btn:hover{
@@ -226,9 +221,9 @@ nav a:hover{
 
     background:linear-gradient(
     135deg,
-    #D9B8FF,
-    #FFD6E7,
-    #FFE5CC
+    #1F6FEB,
+    #238636,
+    #0EA5E9
     );
 
     animation:float 4s ease-in-out infinite;
@@ -331,14 +326,14 @@ nav a:hover{
 
     font-size:2.8rem;
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     margin-bottom:20px;
 }
 
 .about-content p{
 
-    color:#555;
+    color:#C9D1D9;
 
     line-height:1.8;
 
@@ -358,7 +353,7 @@ nav a:hover{
 
 .detail-card{
 
-    background:white;
+    background:#161B22;
 
     padding:20px;
 
@@ -373,7 +368,7 @@ nav a:hover{
 
 .detail-card h3{
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     margin-bottom:10px;
 }
@@ -406,7 +401,7 @@ nav a:hover{
 
 .section-title h2{
     font-size:2.8rem;
-    color:#A06CD5;
+    color:#58A6FF;
 }
 
 .about,
@@ -438,12 +433,12 @@ nav a:hover{
 }
 
 .skill-card{
-    background:white;
+    background:#161B22;
     padding:25px;
     border-radius:20px;
     text-align:center;
     font-weight:600;
-    color:#A06CD5;
+    color:#58A6FF;
     box-shadow:0 10px 25px rgba(160,108,213,.15);
 }
 
@@ -454,14 +449,14 @@ nav a:hover{
 }
 
 .project-card{
-    background:white;
+    background:#161B22;
     padding:30px;
     border-radius:25px;
     box-shadow:0 10px 25px rgba(160,108,213,.15);
 }
 
 .project-card h3{
-    color:#A06CD5;
+    color:#58A6FF;
     margin-bottom:15px;
 }
 
@@ -483,7 +478,7 @@ nav a:hover{
     max-width:900px;
     margin:auto;
 
-    background:white;
+    background:#161B22;
 
     padding:40px;
 
@@ -499,24 +494,24 @@ nav a:hover{
 }
 
 .internship-card h3{
-    color:#A06CD5;
+    color:#58A6FF;
     font-size:1.8rem;
 }
 
 .internship-card h4{
     margin-top:10px;
-    color:#555;
+    color:#C9D1D9;
 }
 
 .internship-card span{
     display:block;
     margin:15px 0;
-    color:#888;
+    color:#8B949E;
 }
 
 .internship-card p{
     line-height:1.8;
-    color:#555;
+    color:#C9D1D9;
 }
 
 .tech-tags{
@@ -533,9 +528,9 @@ nav a:hover{
 
     border-radius:30px;
 
-    background:#F2E7FF;
+    background:#21262D;
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     font-weight:600;
 }
@@ -557,7 +552,7 @@ nav a:hover{
 
 .cert-card{
 
-    background:white;
+    background:#161B22;
 
     padding:35px;
 
@@ -578,7 +573,7 @@ nav a:hover{
 
 .cert-card h3{
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     margin-bottom:15px;
 
@@ -587,7 +582,7 @@ nav a:hover{
 
 .cert-card p{
 
-    color:#666;
+    color:#8B949E;
 }
 /* FOOTER */
 
@@ -606,7 +601,7 @@ footer{
 
 .footer-content h3{
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     margin-bottom:15px;
 
@@ -615,7 +610,7 @@ footer{
 
 .footer-content p{
 
-    color:#666;
+    color:#8B949E;
 
     margin-bottom:20px;
 }
@@ -637,7 +632,7 @@ footer{
 
     text-decoration:none;
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     font-weight:600;
 
@@ -653,7 +648,7 @@ footer{
 
     font-size:.9rem;
 
-    color:#888;
+    color:#8B949E;
 }
 .project-icon{
 
@@ -677,9 +672,9 @@ footer{
 
     border-radius:20px;
 
-    background:#F2E7FF;
+    background:#21262D;
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     font-size:.9rem;
 
@@ -694,7 +689,7 @@ footer{
 
     text-decoration:none;
 
-    background:#A06CD5;
+    background:#58A6FF;
 
     color:white;
 
@@ -738,7 +733,7 @@ footer{
 
     height:100%;
 
-    background:#D9B8FF;
+    background:#1F6FEB;
 }
 
 .timeline-item{
@@ -764,12 +759,12 @@ footer{
 
     border-radius:50%;
 
-    background:#A06CD5;
+    background:#58A6FF;
 }
 
 .timeline-content{
 
-    background:white;
+    background:#161B22;
 
     padding:25px;
 
@@ -780,21 +775,21 @@ footer{
 
 .timeline-content h3{
 
-    color:#A06CD5;
+    color:#58A6FF;
 
     margin-bottom:10px;
 }
 
 .timeline-content h4{
 
-    color:#555;
+    color:#C9D1D9;
 
     margin-bottom:10px;
 }
 
 .timeline-content span{
 
-    color:#888;
+    color:#8B949E;
 
     font-size:.9rem;
 }
@@ -803,7 +798,7 @@ footer{
 
     margin-top:10px;
 
-    color:#666;
+    color:#8B949E;
 
     line-height:1.7;
 }
@@ -822,7 +817,7 @@ footer{
 
 .why-card{
 
-    background:white;
+    background:#161B22;
 
     padding:35px;
 
@@ -845,12 +840,12 @@ footer{
 }
 
 .why-card h3{
-    color:#A06CD5;
+    color:#58A6FF;
     margin-bottom:15px;
 }
 
 .why-card p{
-    color:#666;
+    color:#8B949E;
     line-height:1.7;
 }
 .certificate-btn{
@@ -861,7 +856,7 @@ footer{
 
     text-decoration:none;
 
-    background:#A06CD5;
+    background:#58A6FF;
 
     color:white;
 
